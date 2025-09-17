@@ -5,6 +5,7 @@ import DecreaseBtn from './assets/components/DecreaseBtn'
 import InputField from './assets/components/InputField'
 
 function App() {
+  //adding reviewer
   const [counterValue, setCounterValue] = useState<number>(0)
   const [inputValue, setInputValue] = useState<number>(1)
 
